@@ -1,14 +1,15 @@
 {
   "id": "cursed-scroll6",
+  "type": "module",
   "title": "Cursed Scroll 6: City of Masks",
   "description": "A full Foundry VTT module for Cursed Scroll 6: City of Masks, including classes, spells, tables, lore, scenes, macros, tokens, and assets.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "13",
     "maximum": "13"
   },
-  "system": "shadowdark",
+  "systems": ["shadowdark"],
   "authors": [
     {
       "name": "James Edwards",
@@ -20,47 +21,41 @@
       "name": "classes",
       "label": "CS6 Classes",
       "path": "packs/classes.db",
-      "type": "Item",
-      "system": "shadowdark"
+      "type": "Item"
     },
     {
       "name": "spells",
       "label": "CS6 Spells",
       "path": "packs/spells.db",
-      "type": "Item",
-      "system": "shadowdark"
+      "type": "Item"
     },
     {
       "name": "items",
       "label": "CS6 Items",
       "path": "packs/items.db",
-      "type": "Item",
-      "system": "shadowdark"
+      "type": "Item"
     },
     {
       "name": "tables",
       "label": "CS6 Tables",
       "path": "packs/tables.db",
-      "type": "RollTable",
-      "system": "shadowdark"
+      "type": "RollTable"
     },
     {
       "name": "lore",
       "label": "CS6 Lore",
       "path": "packs/lore.db",
-      "type": "JournalEntry",
-      "system": "shadowdark"
+      "type": "JournalEntry"
     },
     {
       "name": "macros",
       "label": "CS6 Macros",
       "path": "packs/macros.db",
-      "type": "Macro",
-      "system": "shadowdark"
+      "type": "Macro"
     }
   ],
   "url": "https://github.com/james3dwards/cursedscroll6-foundry",
   "manifest": "https://raw.githubusercontent.com/james3dwards/cursedscroll6-foundry/main/module.json",
   "download": "https://github.com/james3dwards/cursedscroll6-foundry/releases/latest/download/cursedscroll6_final_fixed.zip",
-  "type": "module"
+  "readme": "https://raw.githubusercontent.com/james3dwards/cursedscroll6-foundry/main/README.md"
 }
