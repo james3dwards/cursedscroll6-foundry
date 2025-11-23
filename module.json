@@ -1,46 +1,66 @@
 {
-  "name": "cursed-scroll6",
+  "id": "cursed-scroll6",
   "title": "Cursed Scroll 6: City of Masks",
-  "description": "Full integrated module with classes, spells, tables, lore, items, scenes, and macros.",
+  "description": "A full Foundry VTT module for Cursed Scroll 6: City of Masks, including classes, spells, tables, lore, scenes, macros, tokens, and assets.",
   "version": "1.0.0",
-  "compatibleCoreVersion": "13",
-  "type": "module",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "system": "shadowdark",
+  "authors": [
+    {
+      "name": "James Edwards",
+      "url": "https://github.com/james3dwards"
+    }
+  ],
   "packs": [
     {
       "name": "classes",
       "label": "CS6 Classes",
       "path": "packs/classes.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "shadowdark"
     },
     {
       "name": "spells",
       "label": "CS6 Spells",
       "path": "packs/spells.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "shadowdark"
     },
     {
       "name": "items",
       "label": "CS6 Items",
       "path": "packs/items.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "shadowdark"
     },
     {
       "name": "tables",
       "label": "CS6 Tables",
       "path": "packs/tables.db",
-      "type": "RollTable"
+      "type": "RollTable",
+      "system": "shadowdark"
     },
     {
       "name": "lore",
       "label": "CS6 Lore",
       "path": "packs/lore.db",
-      "type": "JournalEntry"
+      "type": "JournalEntry",
+      "system": "shadowdark"
     },
     {
       "name": "macros",
       "label": "CS6 Macros",
       "path": "packs/macros.db",
-      "type": "Macro"
+      "type": "Macro",
+      "system": "shadowdark"
     }
-  ]
+  ],
+  "url": "https://github.com/james3dwards/cursedscroll6-foundry",
+  "manifest": "https://raw.githubusercontent.com/james3dwards/cursedscroll6-foundry/main/module.json",
+  "download": "https://github.com/james3dwards/cursedscroll6-foundry/releases/latest/download/cursedscroll6.zip",
+  "type": "module"
 }
